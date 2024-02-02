@@ -12,6 +12,47 @@
 
     }
 }
+@media screen and (max-width:767px){
+    .trimmer ,.laptop {
+        margin-left: 13%;
+    }
+    .trimmer-img{
+        padding-top: 15rem;
+    }
+    .mi-security-symbol a span{
+        display: none;
+    }
+    .smart-tv img{
+        height: 30rem;
+        margin-bottom: 1rem;
+    }
+  
+ 
+}
+@media screen and(max-width:576px){
+    .border-bottom-right{
+        display: inline-flex;
+    }
+    .bottom-col{
+        flex-direction: row;
+    }
+}
+.bottom-col{
+   
+    
+    height: 100%;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+.border-bottom-right{
+    flex: 1;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    padding-top: 2rem;
+}
 .nav-link{
     color: black;
     border-bottom: solid 2px transparent;
@@ -110,6 +151,7 @@
 .box-link{
     cursor: pointer;
 }
+
 .content-bg{
     color: #f7f7f7;
 }
